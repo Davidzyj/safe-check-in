@@ -25,12 +25,12 @@ The in-app language follows the user's region:
 
 The privacy policy and support pages live under `docs/` and are ready for GitHub Pages:
 
-- English privacy: `/privacy/`
-- English support: `/support/`
-- Chinese privacy: `/zh/privacy/`
-- Chinese support: `/zh/support/`
+- English privacy: `https://davidzyj.github.io/safe-check-in/privacy/`
+- English support: `https://davidzyj.github.io/safe-check-in/support/`
+- Chinese privacy: `https://davidzyj.github.io/safe-check-in/zh/privacy/`
+- Chinese support: `https://davidzyj.github.io/safe-check-in/zh/support/`
 
-Update the production base URL in `SafeCheckIn/Constants.swift` after the GitHub repository and GitHub Pages URL are finalized.
+The production base URL is configured in `SafeCheckIn/Constants.swift`.
 
 ## Development
 
