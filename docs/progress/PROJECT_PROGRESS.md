@@ -34,6 +34,9 @@
 - GitHub Pages-ready privacy and support pages added under `docs/`.
 - 1024 x 1024 App Store icon generated without alpha channel.
 - 6.5-inch English and Simplified Chinese screenshots captured from the real iOS Simulator.
+- Git repository initialized and pushed to `https://github.com/Davidzyj/safe-check-in`.
+- GitHub Pages enabled from `main` branch `/docs`.
+- Public web URL: `https://davidzyj.github.io/safe-check-in/`.
 
 ### Verification
 
@@ -53,4 +56,5 @@
 - Confirm Apple Developer Team ID and bundle identifier ownership.
 - Archive and upload through Xcode after signing is configured.
 - Confirm final App Store category, subtitle, keywords, and age rating.
-- Publish GitHub Pages and paste final privacy/support URLs into App Store Connect.
+- Wait for GitHub Pages build to finish if the public URL is not immediately live.
+- Paste final privacy/support URLs into App Store Connect.
