@@ -41,6 +41,7 @@
 ### Verification
 
 - `xcodebuild -project SafeCheckIn.xcodeproj -scheme SafeCheckIn -destination 'platform=iOS Simulator,name=iPhone 17,OS=26.2' build` succeeded.
+- Final verification on 2026-05-27 succeeded with the same build command.
 - `scripts/capture_screenshots.sh` generated:
   - `AppStoreAssets/Screenshots/en/01-home.png`
   - `AppStoreAssets/Screenshots/en/02-history.png`
@@ -50,6 +51,12 @@
   - `AppStoreAssets/Screenshots/zh-Hans/03-settings.png`
 - Screenshot dimensions verified: `1242 x 2688`.
 - App Store icon verified: `1024 x 1024`, `hasAlpha: no`.
+- GitHub Pages verified with HTTP 200 responses for:
+  - `https://davidzyj.github.io/safe-check-in/`
+  - `https://davidzyj.github.io/safe-check-in/privacy/`
+  - `https://davidzyj.github.io/safe-check-in/support/`
+  - `https://davidzyj.github.io/safe-check-in/zh/privacy/`
+  - `https://davidzyj.github.io/safe-check-in/zh/support/`
 
 ### Remaining Before App Store Submission
 
